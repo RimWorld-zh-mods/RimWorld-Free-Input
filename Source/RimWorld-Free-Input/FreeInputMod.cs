@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RimWorld_Free_Input
-{
-    public class Class1
-    {
+namespace duduluu.FreeInput {
+    public class FreeInputMod {
     }
 }
