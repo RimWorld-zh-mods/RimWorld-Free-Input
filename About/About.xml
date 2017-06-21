@@ -4,11 +4,14 @@
   <author>duduluu</author>
   <url>https://github.com/duduluu/RimWorld-Free-Input</url>
 	<targetVersion>0.17.1557</targetVersion>
-  <description>&lt;color=#81c784&gt;&lt;b&gt;NOTE: Requires HugsLib mod.&lt;/b&gt;&lt;/color&gt;
+  <description>&lt;color=#81c784&gt;&lt;b&gt;Can install/uninstall at any moment.&lt;/b&gt;&lt;/color&gt;
 
 This small mod allows you input any words at:
   - Rename colonists when creating character
   - Rename outfits and drug policies in Assign tab
 
+Compatible with EdB.PrepareCarefully.
+
+License: MIT License
 </description>
 </ModMetaData>
