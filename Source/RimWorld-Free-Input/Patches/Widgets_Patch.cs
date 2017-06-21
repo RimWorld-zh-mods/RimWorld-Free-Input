@@ -15,7 +15,8 @@ namespace duduluu.FreeInput.Patches {
     [HarmonyPatch("TextField")]
     [HarmonyPatch(new Type[] { typeof(Rect), typeof(string), typeof(int), typeof(Regex)})]
     public static class Widgets_Patch {
-        public static bool Prefix(ref string __result, Rect rect, string text, int maxLength, Regex inputValidator) {
+        [HarmonyPrefix]
+        public static bool TextField_Free(ref string __result, Rect rect, string text, int maxLength, Regex inputValidator) {
             string text2 = Widgets.TextField(rect, text);
             if (text2.Length <= maxLength) {
                 __result = text2;

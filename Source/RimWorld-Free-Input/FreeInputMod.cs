@@ -1,13 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using HugsLib;
+using System.Reflection;
+using Verse;
+using Harmony;
 
 namespace duduluu.FreeInput {
-    public class FreeInputMod : ModBase {
-        public override string ModIdentifier {
-            get { return "Free-Input"; }
+    [StaticConstructorOnStartup]
+    public static class FreeInputMod {
+        static FreeInputMod() {
+            var harmony = HarmonyInstance.Create("duduluu.FreeInput");
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
     }
 }
