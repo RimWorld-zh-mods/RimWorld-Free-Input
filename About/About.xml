@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Free Input</name>
+  <name>Free Input 自由输入</name>
   <author>duduluu</author>
-  <url>https://github.com/duduluu/RimWorld-Free-Input</url>
-	<targetVersion>0.17.1557</targetVersion>
+  <url>https://github.com/RimWorld-zh-mods/RimWorld-Free-Input</url>
+	<targetVersion>0.18.1722</targetVersion>
   <description>&lt;color=#81c784&gt;&lt;b&gt;Can install/uninstall at any moment.&lt;/b&gt;&lt;/color&gt;
 
 This small mod allows you input any words at:
